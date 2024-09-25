@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class App {
 
 
-    private final static int[] prices = new int[24];
+    private static int[] prices = new int[24];
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -1,13 +1,15 @@
 package org.example;
 import java.util.Scanner;
 import java.util.Arrays;
+import java.util.Locale;
 
 public class App {
 
 
-    private static int[] prices = new int[24];
+    private static final int[] prices = new int[24];
 
     public static void main(String[] args) {
+        Locale.setDefault(Locale.forLanguageTag("sv-SE"));
         Scanner scanner = new Scanner(System.in);
         String choice;
 
